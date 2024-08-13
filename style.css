@@ -44,6 +44,9 @@ body {
 .nav-menu a:hover{
     color: #387ed1;
 }
+.nav-menu i:hover{
+    cursor: pointer;
+}
 .banner{
     display: flex;
     flex-direction: column;
@@ -61,10 +64,10 @@ body {
 .banner .part-1{
     font-weight: 500;
     font-size: 2.8em;
-    margin-top: 65px;
+    margin-top: 60px;
 }
 .banner .part-2{
-    margin-top: 10px;
+    margin-top: 7px;
     font-weight: 400;
     font-size: 1.3em;
 }
@@ -89,6 +92,8 @@ body {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 220px;
+}
+.product, .varsity{
     margin-top: 140px;
 }
 .features{
@@ -100,6 +105,9 @@ body {
     color: #424242;
     font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 500;
+}
+.product .features div{
+    width: 29vw;
 }
 .product .features h2, .left-pricing h2, .open-account h2{
     font-size: 2.1em;
@@ -152,16 +160,19 @@ body {
 .pricing, .varsity{
     align-items: center;
 }
+.pricing{
+    margin-top: 120px;
+}
 .left-pricing, .right-varsity{
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 15px;
+    gap: 25px;
 }
 .left-pricing p, .varsity p{
     color: #424242;
     font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
-    font-size: 1.1em;
+    font-size: 1.05em;
     line-height: 1.7;
 }
 .left-pricing a, .varsity a{
@@ -214,6 +225,11 @@ body {
 }
 .varsity h3{
     font-size: 1.6em;
+}
+.right-varsity-1, .right-varsity-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .open-account{
     display: flex;
@@ -306,6 +322,7 @@ footer hr{
     flex-direction: column;
     gap: 10px;
     font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+    width: 72vw;
 }
 .mid-footer p{
     color: #787878;
@@ -328,11 +345,100 @@ footer hr{
 }
 .lower-footer a{
     text-decoration: none;
-    color: #b0b0b0;
+    color: #9c9797;
     font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 500;
     font-size: 0.8em;
 }
 .lower-footer a:hover{
     color: #387ed1;
+}
+@media (max-width: 1280px){
+    .nav-bar{
+        padding-left: 90px;
+        padding-right: 160px;
+    }
+    .product, .pricing, .varsity{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .banner img{
+        width: 580px;
+        height: 240px;
+        margin-top: 120px;
+    }
+    .product .features div{
+        width: 34vw;
+    }
+    footer{
+        padding-left: 90px;
+    }
+    .upper-footer{
+        padding-right: 200px;
+    }
+    .mid-footer{
+        width: 86vw;
+    }
+    .lower-footer{
+        margin-left: 60px;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px){
+    .nav-bar{
+        padding-left: 20px;
+        padding-right: 215px;
+    }
+    .product, .pricing, .varsity{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner img{
+        width: 572px;
+        height: 241px;
+        margin-top: 120px;
+    }
+    .product .features div{
+        width: 38vw;
+    }
+    .explore-products img{
+        width: 557px;
+        height: 547px;
+    }
+    .left-pricing p{
+        width: 40vw;
+    }
+    .right-pricing img{
+        width: 100px;
+        height: 74px;
+    }
+    .account p, .equity p{
+        position: absolute;
+        left: 85px;
+        top: 30px;
+    }
+    .intraday p{
+        position: absolute;
+        left: 100px;
+        top: 25px;
+    }
+    .varsity img{
+        width: 387px;
+        height: 292px;
+    }
+    .right-varsity p{
+        width: 45vw;
+    }
+    footer{
+        padding-left: 20px;
+    }
+    .upper-footer{
+        padding-right: 105px;
+    }
+    .mid-footer{
+        width: 95vw;
+    }
+    .lower-footer{
+        width: 110vw;
+    }
 }
