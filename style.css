@@ -442,3 +442,199 @@ footer hr{
         width: 110vw;
     }
 }
+@media (max-width: 768px){
+    .nav-bar img{
+        width: 150px;
+        height: 19px;
+    }
+    .banner img{
+        margin-top: 150px;
+    }
+    .banner .part-2{
+        width: 90vw;
+        text-align: center;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 75px;
+    }
+    .product .features p{
+        width: 97vw;
+    }
+    .explore-products img{
+        width: 728px;
+        height: 715px;
+    }
+    .explore-products .demo{
+        margin-top: -35px;
+    }
+    .media{
+        margin-top: 85px;
+    }
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 50px;
+    }
+    .left-pricing p{
+        width: 95vw;
+    }
+    .left-pricing a{
+        position: absolute;
+        top: 230px;
+        left: 32px;
+    }
+    .right-pricing{
+        justify-content: flex-start;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .account img, .equity img, .intraday img{
+        width: 85px;
+        height: 62px;
+    }
+    .account p, .equity p{
+        left: 75px;
+        top: 18px;
+    }
+    .equity p{
+        width: 20vw;
+    }
+    .intraday p{
+        left: 85px;
+        top: 15px;
+    }
+    .varsity{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 20px;
+    }
+    .varsity img{
+        width: 477px;
+        height: 350px;
+    }
+    .right-varsity p{
+        width: 90vw;
+    }
+    .open-account{
+        margin-top: 67px;
+    }
+    footer{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .upper-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+    }
+    .socials{
+        gap: 15px;
+    }
+    .social-icons-1, .social-icons-2{
+        gap: 23px;
+    }
+    .social-icons-1 a{
+        width: 18px;
+        height: 18px;
+    }
+    .social-icons-2 a{
+        width: 26px;
+        height: 26px;
+    }
+    footer hr{
+        width: 95vw;
+    }
+    .mid-footer{
+        width: 95vw;
+    }
+    .lower-footer{
+        justify-content: flex-start;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        width: 140vw;
+    }
+}
+@media (max-width: 640px){
+    .nav-bar{
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+    .explore-products img{
+        width: 600px;
+        height: 589px;
+    }
+    .media img{
+        width: 600px;
+        height: 33px;
+    }
+    .open-account p{
+        text-align: center;
+    }
+    .mid-footer{
+        width: 94vw;
+    }
+}
+@media (max-width: 550px){
+    .nav-bar{
+        padding-left: 17px;
+    }
+    .nav-icon img{
+        width: 110px;
+        height: 14px;
+    }
+    .banner img{
+        margin-top: 120px;
+    }
+    .banner img{
+        width: 509px;
+        height: 214px;
+    }
+    .product .features h4{
+        width: 50vw;
+    }
+    .product .features p{
+        width: 94vw;
+    }
+    .explore-products img{
+        width: 509px;
+        height: 500px;
+    }
+    .media img{
+        width: 509px;
+        height: 28px;
+    }
+    .left-pricing p{
+        width: 80vw;
+    }
+    .left-pricing a{
+        top: 310px;
+    }
+    .right-pricing {
+        width: 80vw;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        position: relative;
+    }
+    .intraday{
+        position: absolute;
+        top: 80px;
+        left: -70px;
+    }
+    .equity p{
+        width: 30vw;
+    }
+    .varsity{
+        margin-top: 185px;
+    }
+    .right-varsity p{
+        width: 95vw;
+    }
+    .open-account p{
+        width: 95vw;
+    }
+}
