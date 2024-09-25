@@ -10,42 +10,44 @@ body {
     line-height: 1.5;
     font-weight: 400;
     background-color: #ffffff;
+    min-height: 100vh;
 }
-.nav-bar{
+.nav-bar ul{
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    width: 100%;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
-    padding-left: 200px;
-    padding-right: 220px;
-    padding-bottom: 23px;
-    padding-top: 25px;
-    margin-bottom: 20px;
-    box-shadow: 2px 1px 2px #eee;
+    gap: 43px;
+    padding-inline: 208px;
+    padding-bottom: 20px;
+    padding-top: 23px;
 }
-.nav-icon img{
-    width: 130px;
-}
-.nav-menu{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-.nav-menu a{
+.nav-bar a{
     text-decoration: none;
+    display: flex;
+    align-items: center;
     color: #666;
     font-weight: 400;
     font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
 }
-.nav-menu a:hover{
+.nav-bar a:hover{
     color: #387ed1;
 }
-.nav-menu i:hover{
+.nav-bar i:hover{
     cursor: pointer;
+}
+.nav-bar li:first-child{
+    margin-right:  auto;
+}
+.nav-icon img{
+    width: 130px;
 }
 .banner{
     display: flex;
@@ -55,7 +57,7 @@ body {
 .banner img{
     width: 750px;
     height: 310px;
-    margin-top: 140px;
+    margin-top: 135px;
 }
 .banner div{
     color: #424242;
@@ -443,9 +445,9 @@ footer hr{
     }
 }
 @media (max-width: 768px){
-    .nav-bar img{
-        width: 150px;
-        height: 19px;
+    .nav-bar{
+        padding-bottom: 15px;
+        padding-top: 20px;
     }
     .banner img{
         margin-top: 150px;
@@ -560,10 +562,6 @@ footer hr{
     }
 }
 @media (max-width: 640px){
-    .nav-bar{
-        padding-bottom: 15px;
-        padding-top: 20px;
-    }
     .explore-products img{
         width: 600px;
         height: 589px;
@@ -577,64 +575,5 @@ footer hr{
     }
     .mid-footer{
         width: 94vw;
-    }
-}
-@media (max-width: 550px){
-    .nav-bar{
-        padding-left: 17px;
-    }
-    .nav-icon img{
-        width: 110px;
-        height: 14px;
-    }
-    .banner img{
-        margin-top: 120px;
-    }
-    .banner img{
-        width: 509px;
-        height: 214px;
-    }
-    .product .features h4{
-        width: 50vw;
-    }
-    .product .features p{
-        width: 94vw;
-    }
-    .explore-products img{
-        width: 509px;
-        height: 500px;
-    }
-    .media img{
-        width: 509px;
-        height: 28px;
-    }
-    .left-pricing p{
-        width: 80vw;
-    }
-    .left-pricing a{
-        top: 310px;
-    }
-    .right-pricing {
-        width: 80vw;
-        flex-wrap: wrap;
-        margin-left: 30px;
-        position: relative;
-    }
-    .intraday{
-        position: absolute;
-        top: 80px;
-        left: -70px;
-    }
-    .equity p{
-        width: 30vw;
-    }
-    .varsity{
-        margin-top: 185px;
-    }
-    .right-varsity p{
-        width: 95vw;
-    }
-    .open-account p{
-        width: 95vw;
     }
 }
